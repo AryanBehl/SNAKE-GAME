@@ -26,13 +26,13 @@ function spawnFood() {
   } while (snake.some(p => p.x === food.x && p.y === food.y));
 }
 
-function drawGrid() {
-  ctx.strokeStyle = "#111";
-  for (let i = 0; i < 400; i += 20) {
-    ctx.strokeRect(i, 0, 20, 400);
-    ctx.strokeRect(0, i, 400, 20);
-  }
-}
+// function drawGrid() {
+//   ctx.strokeStyle = "#111";
+//   for (let i = 0; i < 400; i += 20) {
+//     ctx.strokeRect(i, 0, 20, 400);
+//     ctx.strokeRect(0, i, 400, 20);
+//   }
+// }
 
 function draw() {
   ctx.fillStyle = "#020617";
